@@ -38,6 +38,7 @@ public class Game extends ApplicationAdapter {
         });
 
         Gdx.input.setInputProcessor(stage);
+        
 
 	}
 
