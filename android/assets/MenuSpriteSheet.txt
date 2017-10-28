@@ -1,0 +1,26 @@
+MenuSpriteSheet.png
+size: 920, 100
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+HsememLogoSmall
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+MenuButton1
+  rotate: false
+  xy: 100, 0
+  size: 720, 100
+  orig: 720, 100
+  offset: 0, 0
+  index: -1
+MgumemLogoSmall
+  rotate: false
+  xy: 820, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

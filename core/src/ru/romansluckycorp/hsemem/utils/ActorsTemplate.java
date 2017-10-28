@@ -11,6 +11,7 @@ import com.badlogic.gdx.scenes.scene2d.Actor;
  * Created by romananchugov on 24.10.2017.
  */
 
+//Templates for all actors
 public class ActorsTemplate extends Actor {
     public Sprite sprite;
 
