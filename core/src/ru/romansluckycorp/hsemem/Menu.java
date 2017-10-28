@@ -70,7 +70,7 @@ public class Menu implements Screen {
             @Override
             public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
                 Gdx.app.log(TAG, "TouchUp");
-                game.setScreen(new TwoChairsGame());
+                game.setScreen(new TwoChairsGame(game));
             }
         });
 
@@ -128,6 +128,7 @@ public class Menu implements Screen {
 
     @Override
     public void dispose() {
-
+        backgroundStage.dispose();
+        stage.dispose();
     }
 }
