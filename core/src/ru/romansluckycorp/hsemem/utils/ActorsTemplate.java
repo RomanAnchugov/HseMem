@@ -30,6 +30,7 @@ public class ActorsTemplate extends Actor {
 
     @Override
     public void act(float delta) {
+        super.act(delta);//important for Actions
         sprite.setSize(getWidth(), getHeight());
         sprite.setPosition(this.getX(), this.getY());
     }
